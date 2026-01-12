@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    char name[100];
+    int age;
+    char phone_number[100];
+    char email[100];
+
+    printf("What's your name? ");
+    fgets(name, sizeof(name), stdin);
+    name[strcspn(name, "\n")] = 0;
+
+    printf("What's your age? ");
+    scanf("%d", &age);
+    getchar();
+
+    printf("What's your phone number? ");
+    fgets(phone_number, sizeof(phone_number), stdin);
+    phone_number[strcspn(phone_number, "\n")] = 0;
+
+    printf("What's your email? ");
+    fgets(email, sizeof(email), stdin);
+    email[strcspn(email, "\n")] = 0;
+
+    printf("New contact: %s, %i, can be reached at %s or %s.\n", name, age, phone_number, email);
+}
