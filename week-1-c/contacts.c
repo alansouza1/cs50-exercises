@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// This program asks the user for the name, age, phone_number and email, and then return the values as confirmation
+
 int main(void)
 {
     char name[100];
