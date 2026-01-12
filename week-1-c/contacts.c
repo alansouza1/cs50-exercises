@@ -5,10 +5,8 @@
 
 int main(void)
 {
-    char name[100];
+    char name[100], phone_number[20], email[100];
     int age;
-    char phone_number[100];
-    char email[100];
 
     printf("What's your name? ");
     fgets(name, sizeof(name), stdin);
