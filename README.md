@@ -1,3 +1,3 @@
 # CS50's Introduction to Computer Science
 
-Exercises from the CS50's Introduction to Computer Science course from Harvard
+This repository contains the exercises that I did during the CS50's course.
